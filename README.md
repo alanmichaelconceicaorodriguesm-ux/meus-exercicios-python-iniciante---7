@@ -1,9 +1,11 @@
-# meus-exercicios-python-iniciante---7
+# meus-exercicios-python-iniciante - 7
 São questões simples para minha pessoa ter uma ser noção do meu progresso. 
 
-n = int(input('Digite um número: ' ))
+def mostrar(lista):
+    for numero in lista:
+        print(numero)
 
-if n % 2 == 0:
-	print('Par')
-else:
-	print('Ímpar')
+
+numeros = [2, 4, 6, 8]
+
+mostrar(numeros)
